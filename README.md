@@ -1,4 +1,4 @@
-# Servidores web & Express avanzado
+# ProductManager Y CartManager (Servidor web y Express Avanzado)
 
 El proyecto de ProductManager se enfoca en la gestión de un catálogo de productos como objetos.
 En el archivo `ProductManager.js`, creamos la clase principal que incluye las siguientes funciones:
