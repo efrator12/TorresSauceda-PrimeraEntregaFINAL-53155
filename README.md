@@ -15,17 +15,19 @@ En el archivo `CartManager.js`, creamos la clase principal que incluye las sigui
   - OBTENER los productos de un carrito específico por ID.
   - AÑADIR diversos/repetidos productos a un carrito existente.
 
-El catálogo de productos se guarda en un archivo llamado `products.json`. 
+El catálogo de productos se guarda en un archivo llamado `products.json`.
+Los carritos de compra se almacenan en un archivo llamado `carts.json`.
 La clase se importa para permitir múltiples solicitudes desde un servidor externo.
 
-En el servidor `app.js`, hacemos referencia al archivo que contiene la clase y las funciones principales (`ProductManager.js`) mediante los métodos `GET` y `GETBYID`. Desde aquí, solicitamos todos los Productos, podemos filtrarlos por ID o establecer una cantidad específica para visualizar en pantalla.
+En el servidor `app.js` hacemos al archivo `index.js` el cual contiene un ruteo para ambos proyectos el cual les da una salida por medio de la importacion y direccion de ruta en `/api/products` o `/api/carts`.
+El archivo routes.js de cada proyecto contiene la clase y las funciones principales importadas de su Manager original (`ProductManager.js` y `CartManager.js`) mediante los multiples métodos importados. Desde aquí, solicitamos todos los Productos, podemos filtrarlos por ID o establecer una cantidad específica para visualizar en pantalla. En los carritos podemos agregar multiples productos por su ID.
 
 ## Pasos para ejecutar el proyecto:
 1. Clona este repositorio en tu máquina local (node.js instalado).
-2. Navega hasta el directorio `ProductManager - 3ra entrega`.
+2. Navega hasta el directorio `ProductManager - 4ta entrega`.
 3. Ejecuta los siguientes comandos desde un CMD para compilar el proyecto:
-    - Instala las dependencias a partir del comando `npm install <nodemon - express>`
-    - Ejecutar `npm run dev` para comenzar con el Testeo del aplicativo.
+    - Instala las dependencias para levantar un servidor en el `Puerto 8080`.
+    - Ejecutar `npm run dev` para comenzar con el Testeo del aplicativo sobre el `/src/app.js`.
     - Abrir una pagina web `http://localhost:8080/api/products` para realizar los queries correspondientes:
       * `http://localhost:8080/api/products`: respondera con todos los productos en catalogo.
       * `http://localhost:8080/api/products?list=5` respondera con solo los primeros 5 productos en catalogo.
