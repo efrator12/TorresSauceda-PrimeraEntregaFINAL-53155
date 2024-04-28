@@ -52,16 +52,16 @@ El archivo routes.js de cada proyecto contiene la clase y las funciones principa
       * Con el metodo POST sobre `http://localhost:8080/api/carts/:cid/carts/:pid` se agregara el producto con su ID en el ID del carrito correspondiente (cid es "Carrito ID" y pid es "Producto ID").
       
 ## Estructura de directorios
-`package.json` contiene la información sobre el proyecto, como el nombre, la versión, las dependencias requeridas, los scripts de ejecución y la licencia. Es fundamental para la gestión y el funcionamiento del proyecto en el ecosistema de Node.js.
-`src\app.js` es el punto de entrada principal de la aplicación. Aquí se configura y se inicia la aplicación Express, se definen middleware y se conectan las rutas.
+  - `package.json` contiene la información sobre el proyecto, como el nombre, la versión, las dependencias requeridas, los scripts de ejecución y la licencia. Es fundamental para la gestión y el funcionamiento del proyecto en el ecosistema de Node.js.
+  - `src\app.js` es el punto de entrada principal de la aplicación. Aquí se configura y se inicia la aplicación Express, se definen middleware y se conectan las rutas.
 
-`src\data\carts.json` almacena la información sobre los carritos de compras en formato JSON. Es utilizado por el gestor de carritos para leer y escribir datos sobre los carritos.
-`src\data\products.json` almacena la información sobre los productos en formato JSON. Es utilizado por el gestor de productos para leer y escribir datos sobre los productos.
+  - `src\data\carts.json` almacena la información sobre los carritos de compras en formato JSON. Es utilizado por el gestor de carritos para leer y escribir datos sobre los carritos.
+  - `src\data\products.json` almacena la información sobre los productos en formato JSON. Es utilizado por el gestor de productos para leer y escribir datos sobre los productos.
 
-`src\managers\CartManager.js` contiene la lógica para manejar las operaciones relacionadas con los carritos de compras, como crear nuevos carritos, obtener información sobre los carritos existentes y añadir productos a los carritos.
-`src\managers\ProductManager.js` contiene la lógica para manejar las operaciones relacionadas con los productos, como obtener información sobre los productos existentes.
+  - `src\managers\CartManager.js` contiene la lógica para manejar las operaciones relacionadas con los carritos de compras, como crear nuevos carritos, obtener información sobre los carritos existentes y añadir productos a los carritos.
+  - `src\managers\ProductManager.js` contiene la lógica para manejar las operaciones relacionadas con los productos, como obtener información sobre los productos existentes.
 
-`src\routes\carts.routes.js` define las rutas relacionadas con los endpoints de la API para los carritos de compras, como crear un nuevo carrito, obtener información sobre los carritos existentes y añadir productos a los carritos.
-`src\routes\index.js` define las rutas principales de la API. Aquí se importan y se montan las rutas relacionadas con los productos y los carritos.
-`src\routes\products.routes.js` define las rutas relacionadas con los endpoints de la API para los productos, como obtener información sobre los productos existentes.
+  - `src\routes\carts.routes.js` define las rutas relacionadas con los endpoints de la API para los carritos de compras, como crear un nuevo carrito, obtener información sobre los carritos existentes y añadir productos a los carritos.
+  - `src\routes\index.js` define las rutas principales de la API. Aquí se importan y se montan las rutas relacionadas con los productos y los carritos.
+  - `src\routes\products.routes.js` define las rutas relacionadas con los endpoints de la API para los productos, como obtener información sobre los productos existentes.
 
