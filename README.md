@@ -72,7 +72,8 @@ ProjectManager - ECOMMERCE
     └── routes
         ├── carts.routes.js
         ├── index.js
-        └── products.routes.js```
+        └── products.routes.js
+```
 
   - `package.json` contiene la información sobre el proyecto, como el nombre, la versión, las dependencias requeridas, los scripts de ejecución y la licencia. Es fundamental para la gestión y el funcionamiento del proyecto en el ecosistema de Node.js.
   - `src\app.js` es el punto de entrada principal de la aplicación. Aquí se configura y se inicia la aplicación Express, se definen middleware y se conectan las rutas.
