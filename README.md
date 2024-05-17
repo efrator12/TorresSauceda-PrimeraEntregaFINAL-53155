@@ -51,7 +51,7 @@ El archivo routes.js de cada proyecto contiene las funciones principales que pue
       * Con el metodo POST sobre `http://localhost:8080/api/carts/:cid/carts/:pid` se agregara el producto con su ID en el ID del carrito correspondiente (cid es "Carrito ID" y pid es "Producto ID").
       
 ## Estructura de directorios:
-```ProjectManager - ECOMMERCE
+ProjectManager - ECOMMERCE
 └── src
     ├── app.js
     ├── config
