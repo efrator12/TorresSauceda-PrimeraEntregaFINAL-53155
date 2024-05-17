@@ -1,7 +1,7 @@
 # ProductManager Y CartManager (Servidor web y Express Avanzado)
 
 El proyecto de ProductManager se enfoca en la gestión de un catálogo de productos como objetos.
-En el archivo `ProductManager.js`, creamos la clase principal que incluye las siguientes funciones:
+En el archivo `src\routes\products.routes.js`, creamos las peticiones principales que incluyen las siguientes funciones:
   - AGREGAR Productos
   - OBTENER TODOS los Productos
   - OBTENER Productos por ID
@@ -9,7 +9,7 @@ En el archivo `ProductManager.js`, creamos la clase principal que incluye las si
   - ELIMINAR Productos por ID
 
 El proyecto CartManager es un servicio para manejar carritos de compras sobre los productos relacionados en el catalogo de ProductManager.
-En el archivo `CartManager.js`, creamos la clase principal que incluye las siguientes funciones:
+En el archivo `src\routes\carts.routes.js`, creamos las peticiones principales que incluyen las siguientes funciones:
   - Permite CREAR nuevos carritos.
   - OBTENER todos los carritos existentes.
   - OBTENER los productos de un carrito específico por ID.
