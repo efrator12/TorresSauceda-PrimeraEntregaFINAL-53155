@@ -51,7 +51,7 @@ El archivo routes.js de cada proyecto contiene las funciones principales que pue
       * Con el metodo POST sobre `http://localhost:8080/api/carts/:cid/carts/:pid` se agregara el producto con su ID en el ID del carrito correspondiente (cid es "Carrito ID" y pid es "Producto ID").
       
 ## Estructura de directorios:
-ProjectManager - ECOMMERCE
+```ProjectManager - ECOMMERCE
 └── src
     ├── app.js
     ├── config
@@ -72,7 +72,7 @@ ProjectManager - ECOMMERCE
     └── routes
         ├── carts.routes.js
         ├── index.js
-        └── products.routes.js
+        └── products.routes.js```
 
   - `package.json` contiene la información sobre el proyecto, como el nombre, la versión, las dependencias requeridas, los scripts de ejecución y la licencia. Es fundamental para la gestión y el funcionamiento del proyecto en el ecosistema de Node.js.
   - `src\app.js` es el punto de entrada principal de la aplicación. Aquí se configura y se inicia la aplicación Express, se definen middleware y se conectan las rutas.
