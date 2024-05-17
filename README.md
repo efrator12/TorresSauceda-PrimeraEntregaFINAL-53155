@@ -52,7 +52,7 @@ El archivo routes.js de cada proyecto contiene las funciones principales que pue
       
 ## Estructura de directorios:
 ProjectManager - ECOMMERCE
-└── src
+```└── src
     ├── app.js
     ├── config
     │   └── mongoDB.config.js
@@ -84,7 +84,7 @@ ProjectManager - ECOMMERCE
   - `src\routes\products.routes.js` define las rutas relacionadas con los endpoints de la API para los productos, como obtener información sobre los productos existentes.
   
   - `src/dao` contiene la lógica de acceso a datos. Está organizado para soportar diferentes métodos de almacenamiento, como el sistema de archivos y MongoDB.
-  - 
+    
   - `src/dao/models` contiene los modelos de datos para la aplicación, definidos utilizando Mongoose para MongoDB.
   - `src/dao/models/cart.model.js` define el esquema del carrito de compra para MongoDB.
   - `src/dao/models/product.model.js` define el esquema del producto para MongoDB.
